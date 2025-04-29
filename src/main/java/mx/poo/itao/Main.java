@@ -1,6 +1,7 @@
 package mx.poo.itao;
-
+import mx.poo.itao.objetos.Profesor;
 import mx.poo.itao.objetos.Estudiante;
+
 
 public class Main {
 
@@ -11,6 +12,10 @@ public class Main {
 		e.setNombre("Fernando");
 		e.saludar();
 		e.estudiar();
+		Profesor p = new Profesor ();
+		p.setNombre("Vianca");
+		p.setnumEm("22110033");
+		p.mostrarProfesor();
 	}
 
 }
