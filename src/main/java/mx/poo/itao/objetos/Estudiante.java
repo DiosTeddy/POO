@@ -14,9 +14,14 @@ import lombok.experimental.SuperBuilder;
 public class Estudiante extends Persona{
 
 	private String carrera;
+	private Integer edad;
+	private String direccion;
+	private String genero;
+	private String nombre;	
 	
 	public void estudiar() {
 		System.out.println("Estudiando " + carrera);
+		
 	}
 
 }
