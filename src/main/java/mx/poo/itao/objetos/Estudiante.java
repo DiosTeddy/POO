@@ -17,7 +17,6 @@ public class Estudiante extends Persona{
 	private Integer edad;
 	private String direccion;
 	private String genero;
-	private String nombre;	
 	
 	public void estudiar() {
 		System.out.println("Estudiando " + carrera);
